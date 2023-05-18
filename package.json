@@ -63,6 +63,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
+    "react-dom": "^17.0.0",
     "rollup-plugin-analyzer": "^4.0.0",
     "yorkie": "^2.0.0"
   },

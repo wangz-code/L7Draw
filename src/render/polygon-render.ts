@@ -64,6 +64,7 @@ export class PolygonRender extends LayerRender<IPolygonFeature, IPolygonStyle> {
   enableDrag() {
     this.disableDrag();
     this.layers[0].on(LayerEvent.Mousedown, this.onMouseDown);
+    this.layers[0].on(LayerEvent.Click, this.onMouseDown);
     this.scene.on(SceneEvent.Dragging, this.onDragging);
     this.scene.on(SceneEvent.Mouseup, this.onDragEnd);
     this.scene.on(SceneEvent.Dragend, this.onDragEnd);
